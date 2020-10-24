@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>register here</title>
+<link rel="stylesheet" href="css/register.css">
+
+<style>
+ body{
+ 	background-image: url(image/japangirl.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+</style>
+
+</head>
+
+<body>
+	<h1>REGISTER</h1>
+	
+     <div class="fm">
+     	
+	<form  action="#" method="post">
+		<h3 class="hd">Fill your Personal info:</h3>
+
+		<p><img class="fl" src="image/fantasy.jpg" width=400px;>
+		Name:<span style="color:red";>*</span><input type="text" name="myname" placeholder="enter your full name" required=""></p>
+		<p>Email:<span style="color:red";>*</span><input type="email" name="email" placeholder="enter your gmail" required=""></p>
+		<p>Phn no:<span style="color:red";>*</span><input type="tel" name="contactno" placeholder="enter your phone number" required=""></p>
+		
+		<p>DOB:<span style="color:red";>*</span><input type="date" name="birthdate"  required=""></p>
+		<p>Gender:</p><p><input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="Female">Female</p><input type="radio" name="gender" value="Others">Others</p>
+		<p>Address:</p><span style="color:red";>*</span>
+		<textarea name="address" style="width:200px; height:60px;" placeholder="enter your permanent address" required></textarea><br>
+		
+		<P>Pin code:<span style="color:red";>*</span><input type="tel" name="pincode" placeholder="enter your area pincode" required></P>
+		<input type="submit" value="submit">&nbsp<input type="reset" value="clear">
+	</form>
+</div>
+</body>
+</html>

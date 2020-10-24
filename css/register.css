@@ -1,0 +1,33 @@
+
+
+.fm{
+	color:white;
+	border-color:aqua;
+	border-style:outset;
+	border-right-style: dotted solid double dashed;
+	border-left-style: dotted;
+	background: black;
+	display:inline-block;
+	padding:1px;
+	margin-left: 0.5px;
+
+	
+
+}
+
+.fl{
+	float:left;
+	padding:5px;
+}
+
+.hd{
+ font-size: 26px;
+}
+
+h1{
+	text-shadow: 6px 6px purple;
+	writing-mode: vertical-lr;
+	float:left;
+	letter-spacing: 50px;
+	font-size: 70px;
+}
